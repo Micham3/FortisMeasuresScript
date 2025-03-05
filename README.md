@@ -16,11 +16,13 @@ The script does the following:
 
 
 Note the following:
-pitch1 = To Pitch (ac): 0.001, 75, 15, "no", 0.03, 0.45, 0.1, 0.35, 0.14, 600
-pitch2 = To Pitch (ac): 0.001, 75, 15, "no", 0.03, 0.45, 0.01, 0, 0.14, 600
+<ul>
+<li>pitch1 = To Pitch (ac): 0.001, 75, 15, "no", 0.03, 0.45, 0.1, 0.35, 0.14, 600 </li>
+<li>pitch2 = To Pitch (ac): 0.001, 75, 15, "no", 0.03, 0.45, 0.01, 0, 0.14, 600 </li>
+</ul>
 
-Pitch1 keeps the octave jump cose at 0.35 (disallowing some jumps), and the octave cost at 0.1. This favours higher F0 frequency and allows some jumps.
-Pitch2 allows all jumps by setting octave jump cost to 0, and disfavours a higher F0 candidate by remaining at 0.01.
+Pitch1 keeps the octave jump cose at 0.35 (disallowing some jumps), and the octave cost at 0.1. This favours higher F0 frequency and allows some jumps. <br/>
+Pitch2 allows all jumps by setting octave jump cost to 0, and disfavours a higher F0 candidate by remaining at 0.01. <br/>
 
 You should adjust the pitch floor and ceiling accordingly! Here we leave it at 75-600Hz, but you may want to change that depending on your speakers. Creak often has a lower F0, and we found it helpful to lower the floor even further for all speakers then is standard.
 
