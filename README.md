@@ -28,4 +28,8 @@ You should adjust the pitch floor and ceiling accordingly! Here we leave it at 7
 
 The burst energy is normalised over time, so the output is in milliseconds rather than another unit of measurement.
 
-All further information can be found in our 2024 Interspeech paper.
+All further information can be found in our 2024 Interspeech paper. If you would like to use this script directly, then it would be much appreciated if you could cite us or our Interspeech paper:
+
+<ul>
+  	Michaela Watkins, Paul Boersma & Silke Hamann: Revisiting pitch jumps: F0 ratio in Seoul Korean. <i>Proceedings of Interspeech</i> 2024, Kos, 1–5 September 2024. 3135–3139.
+</ul>
